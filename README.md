@@ -1,50 +1,95 @@
-= PROJETO: CALCULADORA SIMPLES             =
-= DESENVOLVEDOR: FERNANDO AUGUSTO DA SILVA =
+# 🧮 Calculadora Simples em C++
 
-= DESCRIÇÃO =
-= Este projeto é uma calculadora simples desenvolvida em C++, com o objetivo de praticar conceitos
-  básicos da linguagem, como:
-- Entrada e saída de dados (cin, cout);
-- Estruturas condicionais (if, switch);
-- Laços de repetição;
-- Organização do código em funções.
+**Desenvolvedor:** Fernando Augusto da Silva
 
-= O programa permite realizar as quatro operações básicas (adição, subtração, multiplicação e divisão)
-  e oferece um menu interativo no console.
+## 📌 Sobre o projeto
 
-= FUNCIONALIDADES =
-- Somar dois números
-- Subtrair dois números
-- Multiplicar dois números
-- Dividir dois números (com verificação de divisão por zero)
-- Repetir operações até o usuário escolher sair
+Este projeto consiste em uma calculadora simples desenvolvida em **C++**, criada com o objetivo de praticar fundamentos da linguagem e desenvolver a lógica de programação por meio de uma aplicação prática.
 
-= CONCEITOS APLICADOS =
-- Estruturas de repetição (while)
-- Estruturas condicionais (switch)
-- Entrada e saída de dados (cin, cout)
-- Organização modular com funções
+O programa funciona através de um **menu interativo no terminal**, permitindo que o usuário realize operações matemáticas e continue utilizando a calculadora até escolher a opção de saída.
 
-= ESTRUTURA DO PROJETO =
-= O programa utiliza estruturas de repetição e controle de fluxo para permitir múltiplos cálculos
-  até que o usuário decida encerrar o programa.
+## ⚙️ Funcionalidades
 
-= ORGANIZAÇÃO =
-- Função main(): Controla o fluxo principal do programa.
-- Função cin(): Recebe os dados digitados pelo usuário.
-- Função cout(): Exibe no terminal as mensagens.
-- Estrutura while(opcao != 5): Mantém o programa rodando até o usuário escolher sair.
-- Estrutura switch(): Decide qual operação matemática será executada.
+- ➕ Adição de dois números
+- ➖ Subtração de dois números
+- ✖️ Multiplicação de dois números
+- ➗ Divisão de dois números
+- ⚠️ Verificação de divisão por zero
+- 🔄 Repetição das operações através de um menu interativo
+- 🚪 Opção para encerrar o programa
 
-= COMO USAR? =
-= Se você for executar no terminal CMD no Windows, aqui vai um passo a passo:
-- Você deve estar na pasta onde criou o arquivo "nomedoarquivo.cpp" para conseguir rodar o programa.
-  Caso não saiba mexer no CMD, use o comando "cd" para acessar a pasta desejada e o comando "dir" para
-  listar as pastas dentro do diretório atual.
-- Após seguir os passos anteriores, compile o programa com:
-  "g++ nomedoarquivo.cpp -o calculadora"
-- Em seguida, execute com:
-  "./calculadora"
+## 🧠 Conceitos praticados
 
-= Se você for executar o programa no VS Code ou em qualquer outra IDE, crie um projeto com qualquer nome,
-  mas com a extensão ".cpp", copie e cole o código e então rode o programa.
+Durante o desenvolvimento, foram utilizados conceitos fundamentais de programação em C++, incluindo:
+
+- Entrada e saída de dados com `cin` e `cout`
+- Estruturas condicionais `if` e `switch`
+- Estrutura de repetição `while`
+- Criação e utilização de funções
+- Controle de fluxo
+- Organização e modularização do código
+- Validação de dados e tratamento de situações específicas
+
+## 📂 Estrutura do projeto
+
+O programa possui uma estrutura simples, organizada para separar as responsabilidades de cada parte do código.
+
+### `main()`
+
+Responsável pelo fluxo principal da aplicação, controlando o menu e a interação com o usuário.
+
+### Funções de operações
+
+Funções responsáveis pela realização das operações matemáticas:
+
+- Soma
+- Subtração
+- Multiplicação
+- Divisão
+
+### Estrutura `while`
+
+Mantém o programa em execução até que o usuário selecione a opção de saída.
+
+### Estrutura `switch`
+
+Responsável por identificar a opção escolhida no menu e executar a operação correspondente.
+
+## 💻 Como executar
+
+### Windows — CMD
+
+1. Certifique-se de possuir um compilador C++ instalado, como o **G++**.
+2. Abra o CMD e navegue até a pasta onde está localizado o arquivo `.cpp` utilizando:
+
+```bash
+cd caminho/da/pasta
+```
+
+3. Compile o programa:
+
+```bash
+g++ nomedoarquivo.cpp -o calculadora
+```
+
+4. Execute o programa:
+
+```bash
+calculadora
+```
+
+### Visual Studio Code
+
+Também é possível executar o projeto utilizando o **Visual Studio Code** com uma extensão de C++ e um compilador configurado.
+
+Basta abrir o arquivo `.cpp` no editor e executar o programa através do ambiente configurado.
+
+## 🎯 Objetivo
+
+Este projeto foi desenvolvido como parte do processo de aprendizado em programação, com foco na prática de **lógica de programação, estruturas de controle, funções e organização de código em C++**.
+
+Projetos como este fazem parte da minha jornada de desenvolvimento e servem como base para aplicações cada vez mais complexas.
+
+---
+
+**Tecnologia utilizada:** C++
